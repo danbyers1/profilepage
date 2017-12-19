@@ -1,0 +1,201 @@
+body{
+	background-color: #000702!important;
+	height: 100%;
+	padding-top: 30px;
+    padding-bottom: 0px;
+    background: url('https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1950&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D') no-repeat center center fixed;
+    -webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+
+
+}
+
+h1{
+	font-size: 70px;
+    padding-top: 0px;
+    margin-bottom: 0;
+    color:white !important;
+    font-family: 'Anton', sans-serif !important;
+    text-align:left;
+    text-shadow: 0 0 10px black;
+  
+
+}
+
+h4{
+	font-size: 20px;
+    margin-top: 0;
+    color: black!important;
+   	font-family: 'Anton', sans-serif !important;
+   	color:white !important;
+   	text-align:center;
+   	text-shadow: 0 0 5px black;
+
+  
+}
+
+button{
+	margin-right: 10px !important;
+	color:white !important;
+	box-shadow: 0 0 5px black
+}
+
+h2{
+	font-size: 50px!important;
+	color:white !important;
+	font-family: 'Anton', sans-serif !important;
+	
+}
+
+
+.row marketing{
+	padding-top: 30px;
+}
+
+.lead{
+	text-align: left;
+	color:white !important;
+	padding-bottom: 10px;
+	font-size: 30px !important;
+	text-shadow: 0 0 10px black;
+
+}
+
+.imageBadge{
+	margin-right: 5px;
+	margin-left: 9px;
+}
+
+
+body:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+	position: fixed;
+	z-index: -1;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-image: linear-gradient(to bottom right,#283c86,#45a247)!important;
+	opacity: .8; 
+
+  }
+}
+
+p{
+	padding: 0px;
+}
+
+.card{
+	box-shadow: 0 0 10px black;
+    
+   
+}
+
+.card-header{
+	background-color: #0D1C10!important;
+	padding: 20px !important;
+}
+
+#navIcon{
+	font-size: 22px !important;
+	padding:0px;
+}
+
+footer{
+	padding-bottom: 30px;
+}
+
+.modal .modal-dialog .modal-content{  
+	background-color: #386171 !important;
+	color:white;
+	text-shadow: 0 0 5px black;
+	padding-left: 20px !important;
+	margin-left: 15px;
+}
+
+.modal-footer{
+	border-top: 1px solid #386171 !important;
+}
+
+
+
+#modalCard{
+	margin-left: 40px;
+	box-align: center;
+}
+
+
+#serviceDef{
+	text-align: center !important;
+	color:white;
+}
+
+
+
+@media only screen and (max-width: 991px) {
+    /* For ipads and tablets: */
+    [class*="col-"] {
+        width: 100%;
+		}
+	.card{
+    	margin-left: 5px;
+    	width: 42rem !important;
+    }
+
+    #modalCard{
+    	margin-right: 35px;
+    	margin-left:20px;
+
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+    .card{
+    	margin-left: 10px;
+    	width: 30rem !important;
+    }
+    
+    .btn{
+    	margin-right: 5px!important;
+    }
+
+    #modalCard{
+    	margin-right: 35px;
+    	margin-left:20px;
+
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+    .card{
+    	margin-left: 10px;
+    	width: 20rem !important;
+    }
+    
+    .btn{
+    	margin-right: 5px!important;
+    }
+
+    #modalCard{
+    	margin-right: 35px;
+    	margin-left:20px;
+
+    }
+}
+
