@@ -61,6 +61,12 @@ export class MemStorage implements IStorage {
         description: "Project management, Scrum, Kanban, and DevOps culture",
         icon: "Users",
       },
+      {
+        name: "Containers & Docker",
+        slug: "containers",
+        description: "Master containerization with Docker, Kubernetes, and container orchestration",
+        icon: "Container",
+      },
     ];
 
     categoriesData.forEach((cat) => {
@@ -125,9 +131,18 @@ export class MemStorage implements IStorage {
         difficulty: "Advanced",
         imageUrl: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&auto=format&fit=crop&q=60",
       },
+      {
+        title: "Docker Fundamentals: From Zero to Container Hero",
+        slug: "docker-fundamentals-container-hero",
+        description: "Learn Docker from scratch including images, containers, volumes, networks, and Docker Compose for multi-container applications.",
+        content: "Full tutorial content here...",
+        readTime: 28,
+        difficulty: "Beginner",
+        imageUrl: "https://images.unsplash.com/photo-1605745341112-85968b19335b?w=800&auto=format&fit=crop&q=60",
+      },
     ];
 
-    const categoryMapping = ["raspberry-pi", "python", "sre", "cicd", "agile", "raspberry-pi"];
+    const categoryMapping = ["raspberry-pi", "python", "sre", "cicd", "agile", "raspberry-pi", "containers"];
     
     tutorialsData.forEach((tutorial, index) => {
       const id = randomUUID();

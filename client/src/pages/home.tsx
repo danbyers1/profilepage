@@ -23,6 +23,7 @@ import {
   Code2,
   Workflow,
   BarChart3,
+  Container,
 } from "lucide-react";
 import { useState } from "react";
 
@@ -32,6 +33,7 @@ const iconMap: Record<string, typeof Cpu> = {
   Gauge: Gauge,
   Workflow: Workflow,
   Users: Users,
+  Container: Container,
 };
 
 const colorMap: Record<string, string> = {
@@ -40,6 +42,7 @@ const colorMap: Record<string, string> = {
   "sre": "bg-amber-500/10 text-amber-600 dark:text-amber-400",
   "cicd": "bg-emerald-500/10 text-emerald-600 dark:text-emerald-400",
   "agile": "bg-violet-500/10 text-violet-600 dark:text-violet-400",
+  "containers": "bg-cyan-500/10 text-cyan-600 dark:text-cyan-400",
 };
 
 const navItems = [
@@ -48,6 +51,7 @@ const navItems = [
   { name: "SRE", slug: "sre" },
   { name: "CI/CD", slug: "cicd" },
   { name: "Agile", slug: "agile" },
+  { name: "Containers", slug: "containers" },
 ];
 
 function CategorySkeleton() {
